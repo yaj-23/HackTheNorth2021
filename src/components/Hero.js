@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from 'react';
 import {Link} from 'react-scroll';
 import lottie from 'lottie-web';
 import './Hero.css';
- import {Button} from './Button.js';
+import {Button} from './Button.js';
 
 function Hero() {
 
