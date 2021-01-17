@@ -1,0 +1,121 @@
+.hero-container {
+  margin-top: -80px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  /*background: url("../images/Hero1.png");*/
+  object-fit: contain;
+  z-index: -1;
+}
+
+.greetings {
+  color: #16c79a;
+  font-size: 200px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.name {
+  color: #16c79a;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.button-one {
+  padding-right: 15px;
+}
+.button-two {
+  margin-right: 15px;
+}
+
+.button-three {
+  margin-right: 15px;
+}
+
+.anim {
+  width: 45%;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.anim:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 960px) {
+  .anim {
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 45%;
+  }
+  .hero-container {
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .button-two {
+    padding-top: 15px;
+  }
+  .button-three {
+    padding-top: 15px;
+  }
+
+  .greetings {
+    margin-top: 80px;
+    font-size: 70px;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .anim {
+    margin-left: 0px;
+
+    align-items: center;
+    width: 75%;
+  }
+  .hero-container {
+    align-items: center;
+  }
+  .buttons {
+    margin-left: 0px;
+
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .greetings {
+    margin-left: 0px;
+    align-self: center;
+    font-size: 50px;
+  }
+
+  .name {
+    margin-left: 0px;
+
+    align-items: center;
+    font-size: 25px;
+  }
+}

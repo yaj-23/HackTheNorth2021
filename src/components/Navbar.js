@@ -54,9 +54,11 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='projects' className='nav-links' duration={800} smooth={true}>
+                        
+                        <a href="https://creator.voiceflow.com/demo/60037a5ac2bfef001b823def2007616400" className='nav-links'>
                             VadaAi
-                        </Link>
+                        </a>
+                    
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
