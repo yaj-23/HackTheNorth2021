@@ -38,12 +38,12 @@ function Hero() {
                             </Button>
                         </a>             
                             
-
-                        <Link to='doc' className='button-one'  duration={800} smooth={true}>                
+                        <a href="https://angel-shah.github.io/VADA-vidChat/" className='button-one'>
                             <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
                                 Talk To Doctor
                             </Button>
-                        </Link>
+                        </a>
+                        
                     </div>
                 </div>
               
