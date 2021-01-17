@@ -1,0 +1,56 @@
+.btn {
+  padding: 8px 20px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-primary {
+  background-color: snow;
+  color: #303030;
+  border: 1px solid snow;
+}
+
+.btn-medium {
+  padding: 10px 25px;
+  font-size: 18px;
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}
+
+.btn-mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  font-size: 24px;
+  color: snow;
+  padding: 14px 20px;
+  background-color: transparent;
+  border: 1px solid snow;
+  transition: all 0.3s ease-out;
+}
+
+.btn-large:hover,
+.btn-medium:hover,
+.btn-medium:hover {
+  color: #303030;
+  background-color: snow;
+  transform: scale(1.05);
+  transition: all 0.3s ease-out;
+}
+
+.primary {
+  background-color: #16c79a;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+.primary:hover {
+  background-color: white;
+  color: #16c79a;
+  font-weight: 600;
+  border: 1px solid #303030;
+}
