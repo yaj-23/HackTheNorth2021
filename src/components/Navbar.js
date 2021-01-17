@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Link} from 'react-scroll';
 import "./Navbar.css";
+import logo from '../images/logo.png';
+
 
 
 function Navbar() {
@@ -29,7 +31,7 @@ function Navbar() {
                 <div className="navbar-container container"> {/* This is the Navbar Component Divisions like Logo and Links*/}
                     
                     <Link to='home' className='navbar-logo' duration={800} smooth={true}>{/* This is the Logo Component, imports sourse from images*/}
-                        <img  alt=""/>
+                    <img src={logo} alt=""/>
                     </Link>
 
                     <div className='menu-icon' onClick ={handleClick}> {/* This checks if its clicked, if yea, change to closed, if not keep displaying bars*/}
