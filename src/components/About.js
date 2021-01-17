@@ -1,8 +1,7 @@
 import React from 'react';
-import {Link} from 'react-scroll';
 
 import './About.css';
- import {Button} from './Button.js';
+
 
 function About() {
 
