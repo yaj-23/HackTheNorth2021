@@ -11,11 +11,17 @@
   font-family: "Raleway", sans-serif;
 }
 .navbar.active {
-  background: transparent;
+  background: #303030;
   transition: all 0.6s ease;
-  color: #303030;
+  color: white;
 }
 
+.navbar.active .nav-links {
+  color: white;
+}
+.navbar.active .nav-links:hover {
+  color: #16c79a;
+}
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -33,14 +39,15 @@
 }
 
 .navbar-logo {
+  cursor: pointer;
   justify-self: start;
   display: flex;
   align-items: center;
-  transform: scale(1);
+  transform: scale(0.4);
   transition: all 0.3s ease;
 }
 .navbar-logo:hover {
-  transform: scale(1.05);
+  transform: scale(0.5);
   transition: all 0.3s ease;
 }
 
@@ -80,4 +87,5 @@
 
 .menu-icon {
   display: none;
+  cursor: pointer;
 }

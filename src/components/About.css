@@ -1,0 +1,56 @@
+.about-container {
+  margin-top: 0px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #16c79a;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.header_about {
+  color: #ffffff;
+  font-size: 100px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.header_about1 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.button-one {
+  padding-right: 15px;
+}
+.button-two {
+  margin-right: 15px;
+}
+
+.button-three {
+  margin-right: 15px;
+}
+
+.anim {
+  width: 45%;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.anim:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}

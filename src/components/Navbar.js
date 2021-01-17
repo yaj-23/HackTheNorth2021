@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-scroll';
 import "./Navbar.css";
-import logo from '../images/logo.png';
+import logo from '../images/logo1.png';
 
 
 
@@ -48,7 +48,7 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='about' className='nav-links' duration={800} smooth={true}>
+                        <Link to='' className='nav-links' duration={800} smooth={true}>
                             VADA
                         </Link>
                     </li>
@@ -62,7 +62,7 @@ function Navbar() {
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='projects' className='nav-links' duration={800} smooth={true}>
+                        <Link to='about' className='nav-links' duration={800} smooth={true}>
                             About
                         </Link>
                     </li>

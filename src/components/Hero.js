@@ -32,13 +32,14 @@ function Hero() {
                             </Button>
                         </Link>
 
-                        <Link to='about' className='button-one'  duration={800} smooth={true}>                
+                        <a href="https://creator.voiceflow.com/demo/60037a5ac2bfef001b823def3938" className='button-one'>
                             <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
                                 AI Assistant
                             </Button>
-                        </Link>
+                        </a>             
+                            
 
-                        <Link to='about' className='button-one'  duration={800} smooth={true}>                
+                        <Link to='doc' className='button-one'  duration={800} smooth={true}>                
                             <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
                                 Talk To Doctor
                             </Button>
