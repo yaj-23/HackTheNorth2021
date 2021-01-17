@@ -38,7 +38,7 @@ function Hero() {
                             </Button>
                         </a>             
                             
-                        <a href="https://angel-shah.github.io/VADA-vidChat/" className='button-one'>
+                        <a href="https://vada-videochat.netlify.app/" className='button-one'>
                             <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
                                 Talk To Doctor
                             </Button>
