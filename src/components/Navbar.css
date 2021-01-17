@@ -1,0 +1,143 @@
+.navbar {
+  background: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: "Raleway", sans-serif;
+}
+.navbar.active {
+  background: transparent;
+  transition: all 0.6s ease;
+  color: #303030;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.navbar-logo {
+  justify-self: start;
+  display: flex;
+  align-items: center;
+}
+.navbar-logo:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  height: 80px;
+  padding: 10px;
+}
+
+.nav-links {
+  color: #303030;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-weight: 400;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  color: #16c79a;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    z-index: 100;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: transparent;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+    color: white;
+  }
+
+  .nav-links:hover {
+    color: salmon;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+
+  .nav-item:hover {
+    border: none;
+  }
+
+  .nav-item {
+    background-color: #303030;
+    width: 100%;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    margin-top: 15px;
+    top: 0;
+    right: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
