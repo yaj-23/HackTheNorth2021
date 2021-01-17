@@ -23,7 +23,7 @@ function Hero() {
             <div className='hero-container' id='home'>
                 <div className='text'>
                     <h1 className="greetings">VADA</h1>
-                    <p className="name">Video Assisted Doctor Appointments</p>\
+                    <p className="name">Video Assisted Doctor Appointments</p>
 
                     <div className='buttons'>
                         <Link to='about' className='button-one'  duration={800} smooth={true}>                
