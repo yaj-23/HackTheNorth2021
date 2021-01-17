@@ -24,6 +24,7 @@ function About() {
                     <div className='what_card'>
                         <h1 className='header_about2'>How its Made</h1>
                         <p1 className='header_about3'>Vada uses a variety of techincal solutions to present an innovative take on creating Patient-Doctor appointments/interviwes. We utilize Voiceflow for our automated chatbot system which is intergrated with Google Assistant Programs. The data received from the chatbot is stored in an excel file which uses Dropbase to store into a database. This data is fetched using REST API Methods, and utilized to publish on a website/chat area or a physical document of some sort. The website is created using React Js, HTML, and Css</p1>
+                        <div><br/><br/></div>
                     </div>
                     
 
