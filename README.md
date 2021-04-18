@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Inspiration
+With the spread of COVID-19 around the world, doctors, nurses, EMP, and all other healthcare workers go the extra mile to help minimize contraction and keep our community safe. Not only do they put in the time, but they risk their lives everyday. This is why we want to incorporate more automation into their lives, so less time is wasted, and we are provided with a safer way to interact at a distance when possible.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What it Offers
+Our webapp, VADA (Video Assisted Doctor Appointments), allows patients to interact with a Voiceflow chatbot to troubleshoot any symptoms they may have. With the use of the Dropbase API, your responses will recorded in a database for the doctor to view. Based on the responses you give, the chatbox will determine whether you require an appointment or you may request for one manually. If an appointment gets confirmed, you are able to access a 1 on 1 video call hosted by Vonage's video API. During the call, doctors are able to access your profile to see recorded responses from the database, where they can make changes throughout the session.
 
-## Available Scripts
+How we built VADA
+Vada uses a variety of technical solutions to present an innovative take on creating Patient-Doctor appointments/interviews. We utilize Voiceflow for our automated chatbot system which is integrated with Google Assistant Programs. The data received from the chatbot is stored in an excel file which uses Dropbase to store into a database. This data is fetched using REST API Methods, and utilized to publish on a website/chat area or a physical document of some sort. The website is created using React JS, HTML, and CSS
 
-In the project directory, you can run:
+Challenges we ran into
+Trying to get multiple API's working smoothly together is quite difficult with only a basic understanding. A few challenges we faced as a team was getting used to the different software's, and formatting. A couple of us had HackTheNorth as their first hackathon so it was about getting used to the environment. We did not have much experience with the some of the sponsored software's (Dropbase, Voiceflow, CockroachDb), which put our team at a slight disadvantage.
 
-### `npm start`
+Accomplishments that I'm proud of
+We at VADA, are proud to create a communicating environment that allows patients and doctors to remotely have consulting sessions even during quarantine. We understand being locked up in your house is hard, and when you require medical assistance, it becomes immensely difficult, and so creating a solution to this problem at such a prestige competition is definitely no small feat. As a team, we stand by our product, and are thankful for such a hard, dedicated team of individuals.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+What We learned
+As a team, we learnt how to integrate API's, and frameworks together to create something innovative which would benefit society during such hard times with Covid-19 Pandemic.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+What's next for VADA
+VADA does not want to limit our services for Covid-19, as a matter of fact, there are many instances in the world where meeting up with your doctor or physician is not possible. As a result, we want to allow services for all type's of patient-doctor, doctor-doctor, patient-consultant meetings and continue to grow from there.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built With
+css3
+dropbase
+html5
+react.js
+voiceflow
+vonage
